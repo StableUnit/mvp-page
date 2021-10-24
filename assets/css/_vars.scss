@@ -1,0 +1,16 @@
+// Window Height 100vh including mobile browser toolbar
+$max-vh: calc(var(--vh, 1vh) * 100);
+
+// Maximum Width including scrollbar
+$max-w: calc(100vw - var(--scroll-width));
+
+$font-primary: 'DM Sans', sans-serif;
+$font-secondary: 'Jost', sans-serif;
+
+$dark-bg: #1C182A;
+$color-dark-2: #373245;
+$color-grey: #8A869B;
+
+$color-light: #E9E7F2;
+$color-white: #fff;
+$color-blue: #86B4F9;

@@ -1,0 +1,56 @@
+// Basic
+.clearfix {
+  &:before, &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.aligncenter, .center {
+  text-align: center;
+}
+
+.alignleft, .left {
+  text-align: left;
+}
+
+.alignright, .right {
+  text-align: right;
+}
+
+
+.btn-wrap {
+  display: flex;
+  
+  &.center {
+    justify-content: center;
+  }
+}
+
+
+.text-gradient {
+  background: linear-gradient(74.43deg, #D8ADFB -12.43%, #B8D3F6 24.51%, #A7F5D5 63.46%, #F3EFC0 82.01%, #F3B6F4 110.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue {
+  color: $color-blue;
+}
+
+.no-js {
+  visibility: hidden;
+}
+
+.js {
+  visibility: visible
+}
